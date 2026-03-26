@@ -166,4 +166,22 @@
     justify-content: center;
     align-items: center;
   }
+
+  .additional img {
+    margin: 15rem auto -10rem;
+    width: 100%;
+  }
+
+  .additional-footer {
+    width: 100%;
+    margin: 5rem 0 15rem;
+  }
+
+  .additional-footer img {
+    width: 40rem;
+  }
+
+  .additional-footer p {
+    margin: 5rem 0 0;
+  }
 }

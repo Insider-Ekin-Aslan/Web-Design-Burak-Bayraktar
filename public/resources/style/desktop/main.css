@@ -105,7 +105,9 @@ section .content > div > ul:last-child > li:last-of-type {
   right: 6rem;
   cursor: pointer;
   opacity: 0.5;
-  transition: background-color var(--fast), opacity var(--fast);
+  transition:
+    background-color var(--fast),
+    opacity var(--fast);
 }
 
 .before-after i:hover {
@@ -311,7 +313,9 @@ iframe {
   font-weight: 600;
   color: var(--dark-green);
   cursor: pointer;
-  transition: background-color var(--fast), color var(--fast),
+  transition:
+    background-color var(--fast),
+    color var(--fast),
     border-color var(--fast);
 }
 
@@ -346,4 +350,24 @@ iframe {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.additional img {
+  display: block;
+  margin: 8rem auto -2rem;
+  width: 50%;
+}
+
+.additional-footer {
+  width: 50%;
+  align-items: center !important;
+  margin: 2rem 0 0;
+}
+
+.additional-footer img {
+  width: 10rem;
+}
+
+.additional-footer p {
+  margin: 1rem 0 0 1rem;
 }
